@@ -10,40 +10,27 @@
     <script src="https://kit.fontawesome.com/f34509c421.js" crossorigin="anonymous"></script>
 </head>
 <header>
-    <nav class="bg-blue-700 p-4 text-white">
-        <div class="container mx-auto">
-            <div class="flex justify-between items-center">
-                <ul class="flex space-x-4">
-                    <li><a href="#" class="hover:underline">Inicio</a></li>
-                    <li><a href="#" class="hover:underline">Habilidades</a></li>
-                    <li><a href="#" class="hover:underline">Servicios</a></li>
-                    <li><a href="#" class="hover:underline">Proyectos</a></li>
-                    <li><a href="#" class="hover:underline">Experiencia laboral</a></li>
-                    <li><a href="#" class="hover:underline">Contacto</a></li>
-                </ul>
-            </div>
-            <div>
-                <div>
-                <button id="dark-mode-toggle" class="ml-4 p-2 bg-blue-600 rounded">Toggle</button>
-                <span id="dark-mode-status" class="ml-2">Light mode</span>
-                </div>
-                <div>
-                <button id="language-toggle" class="ml-4 p-2 bg-blue-600 rounded">ES/EN</button>
-                <span id="language-status" class="ml-2">ES</span>
-                </div>
-            </div>
-        </div>        
+    <nav class=" fixed top-10 left-1/2 -translate-x-1/2 backdrop-blur-md shadow-lg rounded-2xl flex gap-6 items-center bg-nav border-1 border-nav-stroke text-white p-6 px-6 w-auto z-50">        
+            <ul class="flex space-x-4">
+                <li><a href="#" class="text-primary hover:font-bold">Inicio</a></li>
+                <li><a href="#" class="text-primary hover:font-bold">Habilidades</a></li>                
+                <li><a href="#" class="text-primary hover:font-bold">Proyectos</a></li>
+                <li><a href="#" class="text-primary hover:font-bold">Experiencia</a></li>
+                <li><a href="#" class="text-primary hover:font-bold">Contacto</a></li>
+            </ul>      
     </nav>
 </header>
+
 <body class="bg-bg text-white">
-    <main class="container mx-auto p-4">
+    <main class="container mx-auto pt-32 px-4">
         <section class="text-center my-8">
             <img src="/assets/profile.webp" alt="María Laura Dalio" class="w-40 h-40 rounded-full mx-auto mb-4">
             <h1 class="text-5xl font-bold mb-4">María Laura Dalio</h1>
             <h2 class="text-xl mb-4">UX/UI Designer & Web Designer</h2>
             <p class="mb-4">Especializada en diseño de experiencias digitales y desarrollo web.</p>
             <div class="space-x-4">
-                <a href="https://www.linkedin.com/in/marialauradalio/" target="_blank" class="text-blue-700 hover:underline">
+                <a href="https://www.linkedin.com/in/marialauradalio/" target="_blank"
+                    class="text-blue-700 hover:underline">
                     Linkedin <i class="fab fa-linkedin fa-2x"></i>
                 </a>
                 <a href="https://www.behance.net/marialauradalio" target="_blank" class="text-blue-700 hover:underline">
@@ -54,30 +41,30 @@
                 </a>
             </div>
         </section>
-      <section class="my-8">
-        <h2 class="text-2xl font-bold mb-4">Habilidades</h2>
-       <div>
-        <h3 class="text-xl font-semibold mb-2">Diseño UX/UI & Gráfico</h3>
-        <p>Figma</p> <i class="fab fa-figma fa-2x"></i>
-        <p> Adobe Photoshop</p> <i class="fab fa-adobe fa-2x"></i>
-        <p>Adobe Illustrator</p> <i class="fab fa-adobe fa-2x"></i>
-        <p> Adobe After Effects </p> <i class="fab fa-adobe fa-2x"></i>        
-       </div>
-       <div class="mt-4">
-        <h3 class="text-xl font-semibold mb-2">Desarrollo Web</h3>
-        <p>HTML5</p> <i class="fab fa-html5 fa-2x"></i>
-        <p>CSS3</p> <i class="fab fa-css3-alt fa-2x"></i>
-        <p>JavaScript</p> <i class="fab fa-js fa-2x"></i>
-        <p> Tailwind CSS</p> <i class="fas fa-border-all fa-2x"></i>
-        <p> Bootstrap</p> <i class="fab fa-bootstrap fa-2x"></i>
-        <p>Git & GitHub</p> <i class="fab fa-git-alt fa-2x"></i>
-        </div>
-        <div class="mt-4">
-        <h3 class="text-xl font-semibold mb-2">CMS</h3>
-        <p>WordPress</p> <i class="fab fa-wordpress fa-2x"></i>
-        <p>Elementor</p> <i class="fas fa-th-large fa-2x"></i>
-        <p>WooCommerce</p> <i class="fas fa-shopping-cart fa-2x"></i>
-        </div>
+        <section class="my-8">
+            <h2 class="text-2xl font-bold mb-4">Habilidades</h2>
+            <div>
+                <h3 class="text-xl font-semibold mb-2">Diseño UX/UI & Gráfico</h3>
+                <p>Figma</p> <i class="fab fa-figma fa-2x"></i>
+                <p> Adobe Photoshop</p> <i class="fab fa-adobe fa-2x"></i>
+                <p>Adobe Illustrator</p> <i class="fab fa-adobe fa-2x"></i>
+                <p> Adobe After Effects </p> <i class="fab fa-adobe fa-2x"></i>
+            </div>
+            <div class="mt-4">
+                <h3 class="text-xl font-semibold mb-2">Desarrollo Web</h3>
+                <p>HTML5</p> <i class="fab fa-html5 fa-2x"></i>
+                <p>CSS3</p> <i class="fab fa-css3-alt fa-2x"></i>
+                <p>JavaScript</p> <i class="fab fa-js fa-2x"></i>
+                <p> Tailwind CSS</p> <i class="fas fa-border-all fa-2x"></i>
+                <p> Bootstrap</p> <i class="fab fa-bootstrap fa-2x"></i>
+                <p>Git & GitHub</p> <i class="fab fa-git-alt fa-2x"></i>
+            </div>
+            <div class="mt-4">
+                <h3 class="text-xl font-semibold mb-2">CMS</h3>
+                <p>WordPress</p> <i class="fab fa-wordpress fa-2x"></i>
+                <p>Elementor</p> <i class="fas fa-th-large fa-2x"></i>
+                <p>WooCommerce</p> <i class="fas fa-shopping-cart fa-2x"></i>
+            </div>
         </section>
         <section class="my-8">
             <h2 class="text-2xl font-bold mb-4">Servicios</h2>
@@ -85,54 +72,55 @@
                 <div class="p-4 border rounded shadow">
                     <h3 class="text-xl font-semibold mb-2">Diseño UX/UI</h3>
                     <p>Investigación de usuarios, wireframes, prototipos interactivos y diseño visual.</p>
-                </div>                
+                </div>
                 <div class="p-4 border rounded shadow">
                     <h3 class="text-xl font-semibold mb-2">Desarrollo Web</h3>
-                    <p>Diseño y desarrollo de sitios web responsivos utilizando HTML, CSS, JavaScript y CMS como WordPress.</p>
+                    <p>Diseño y desarrollo de sitios web responsivos utilizando HTML, CSS, JavaScript y CMS como
+                        WordPress.</p>
                 </div>
-                </div>
+            </div>
         </section>
         <section class="my-8">
             <h2 class="text-2xl font-bold mb-4">Proyectos</h2>
             <div class="my-4">
                 <h3 class="text-xl font-semibold mb-2">Diseño UX/UI</h3>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                <div class="p-4 border rounded shadow">
-                    <img src="/assets/proyecto1.png" alt="Proyecto 1" class="mb-4">
-                    <h3 class="text-xl font-semibold mb-2">Proyecto 1: Rediseño de Sitio Web para Empresa X</h3>
-                    <p>Descripción breve del proyecto, objetivos y resultados.</p>
-                    <button class="mt-2 p-2 bg-blue-700 text-white rounded hover:bg-blue-800">Ver más</button>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div class="p-4 border rounded shadow">
+                        <img src="/assets/proyecto1.png" alt="Proyecto 1" class="mb-4">
+                        <h3 class="text-xl font-semibold mb-2">Proyecto 1: Rediseño de Sitio Web para Empresa X</h3>
+                        <p>Descripción breve del proyecto, objetivos y resultados.</p>
+                        <button class="mt-2 p-2 bg-blue-700 text-white rounded hover:bg-blue-800">Ver más</button>
+                    </div>
+                    <div class="p-4 border rounded shadow">
+                        <img src="/assets/proyecto2.png" alt="Proyecto 2" class="mb-4">
+                        <h3 class="text-xl font-semibold mb-2">Proyecto 2: Aplicación Móvil para Servicio Y</h3>
+                        <p>Descripción breve del proyecto, objetivos y resultados.</p>
+                        <button class="mt-2 p-2 bg-blue-700 text-white rounded hover:bg-blue-800">Ver más</button>
+                    </div>
+                    <div class="p-4 border rounded shadow">
+                        <img src="/assets/proyecto3.png" alt="Proyecto 3" class="mb-4">
+                        <h3 class="text-xl font-semibold mb-2">Proyecto 3: Plataforma de E-commerce para Marca Z</h3>
+                        <p>Descripción breve del proyecto, objetivos y resultados.</p>
+                        <button class="mt-2 p-2 bg-blue-700 text-white rounded hover:bg-blue-800">Ver más</button>
+                    </div>
                 </div>
-                <div class="p-4 border rounded shadow">
-                    <img src="/assets/proyecto2.png" alt="Proyecto 2" class="mb-4">
-                    <h3 class="text-xl font-semibold mb-2">Proyecto 2: Aplicación Móvil para Servicio Y</h3>
-                    <p>Descripción breve del proyecto, objetivos y resultados.</p>
-                    <button class="mt-2 p-2 bg-blue-700 text-white rounded hover:bg-blue-800">Ver más</button>
-                </div>
-                <div class="p-4 border rounded shadow">
-                    <img src="/assets/proyecto3.png" alt="Proyecto 3" class="mb-4">
-                    <h3 class="text-xl font-semibold mb-2">Proyecto 3: Plataforma de E-commerce para Marca Z</h3>
-                    <p>Descripción breve del proyecto, objetivos y resultados.</p>
-                    <button class="mt-2 p-2 bg-blue-700 text-white rounded hover:bg-blue-800">Ver más</button>
-                </div>
-            </div>
             </div>
             <div class="my-4">
                 <h3 class="text-xl font-semibold mb-2">Desarrollo Web</h3>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                <div class="p-4 border rounded shadow">
-                    <img src="/assets/proyecto4.png" alt="Proyecto 4" class="mb-4">
-                    <h3 class="text-xl font-semibold mb-2">Proyecto 4: Sitio Web Corporativo para Empresa A</h3>
-                    <p>Descripción breve del proyecto, tecnologías utilizadas y resultados.</p>
-                    <button class="mt-2 p-2 bg-blue-700 text-white rounded hover:bg-blue-800">Ver más</button>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div class="p-4 border rounded shadow">
+                        <img src="/assets/proyecto4.png" alt="Proyecto 4" class="mb-4">
+                        <h3 class="text-xl font-semibold mb-2">Proyecto 4: Sitio Web Corporativo para Empresa A</h3>
+                        <p>Descripción breve del proyecto, tecnologías utilizadas y resultados.</p>
+                        <button class="mt-2 p-2 bg-blue-700 text-white rounded hover:bg-blue-800">Ver más</button>
+                    </div>
+                    <div class="p-4 border rounded shadow">
+                        <img src="/assets/proyecto5.png" alt="Proyecto 5" class="mb-4">
+                        <h3 class="text-xl font-semibold mb-2">Proyecto 5: Blog Personal para Influencer B</h3>
+                        <p>Descripción breve del proyecto, tecnologías utilizadas y resultados.</p>
+                        <button class="mt-2 p-2 bg-blue-700 text-white rounded hover:bg-blue-800">Ver más</button>
+                    </div>
                 </div>
-                <div class="p-4 border rounded shadow">
-                    <img src="/assets/proyecto5.png" alt="Proyecto 5" class="mb-4">
-                    <h3 class="text-xl font-semibold mb-2">Proyecto 5: Blog Personal para Influencer B</h3>
-                    <p>Descripción breve del proyecto, tecnologías utilizadas y resultados.</p>
-                    <button class="mt-2 p-2 bg-blue-700 text-white rounded hover:bg-blue-800">Ver más</button>
-                </div>
-            </div>
             </div>
         </section>
         <section class="my-8">
@@ -159,37 +147,42 @@
             </div>
             <div class="space-y-4 mt-4">
                 <div class="p-4 border rounded shadow">
-                    <h3 class="text-xl font-semibold mb-2">Asistente de Diseño Gráfico en Estudio de Diseño (2017 - 2019)</h3>
+                    <h3 class="text-xl font-semibold mb-2">Asistente de Diseño Gráfico en Estudio de Diseño (2017 -
+                        2019)</h3>
                     <ul class="list-disc list-inside">
                         <li>Creación de materiales gráficos para campañas publicitarias y redes sociales.</li>
                         <li>Colaboración en proyectos de branding y diseño de identidad visual.</li>
                         <li>Soporte en la gestión de proyectos y comunicación con clientes.</li>
-                    </ul>   
+                    </ul>
                 </div>
             </div>
         </section>
-<section class="my-8">
+        <section class="my-8">
             <h2 class="text-2xl font-bold mb-4">Contacto</h2>
             <div class="space-y-4">
                 <div>
                     <i class="fas fa-envelope fa-2x"></i>
-                    <span class="ml-2">Email <button class="text-blue-700 hover:underline"> Copiar email </button></span>
-                    <input type="text" value="tuemail@example.com" class="hidden" id="email-to-copy">                    
+                    <span class="ml-2">Email <button class="text-blue-700 hover:underline"> Copiar email
+                        </button></span>
+                    <input type="text" value="tuemail@example.com" class="hidden" id="email-to-copy">
                 </div>
                 <div>
                     <i class="fas fa-phone fa-2x"></i>
-                    <span class="ml-2">Linkedin <button class="text-blue-700 hover:underline"> Copiar Linkedin </button></span>
-                    <input type="text" value="https://www.linkedin.com/in/tuusuario" class="hidden" id="linkedin-to-copy">
+                    <span class="ml-2">Linkedin <button class="text-blue-700 hover:underline"> Copiar Linkedin
+                        </button></span>
+                    <input type="text" value="https://www.linkedin.com/in/tuusuario" class="hidden"
+                        id="linkedin-to-copy">
                 </div>
             </div>
-        </section>        
+        </section>
     </main>
     <footer class="bg-blue-700 text-white text-center p-4">
         <div class="mb-2">
             <strong>María Laura Dalio</strong> - UX/UI Designer & Web Designer
         </div>
         <div class="mb-2">
-            <a href="https://www.linkedin.com/in/marialauradalio/" target="_blank" class="text-white hover:underline mx-2">
+            <a href="https://www.linkedin.com/in/marialauradalio/" target="_blank"
+                class="text-white hover:underline mx-2">
                 Linkedin <i class="fab fa-linkedin fa-2x"></i>
             </a>
             <a href="https://www.behance.net/marialauradalio" target="_blank" class="text-white hover:underline mx-2">
@@ -210,5 +203,5 @@
         <p>&copy; 2025 María Laura Dalio. Todos los derechos reservados.</p>
     </footer>
 </body>
+
 </html>
-     
