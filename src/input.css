@@ -11,3 +11,20 @@
     --color-button: #231A33;
     --color-primary: #CBACF9;
 }
+
+@keyframes infiniteScroll {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.scroll-animation {
+    animation: infiniteScroll 20s linear infinite;
+}
+
+.carousel-wrapper:hover .scroll-animation {
+    animation-play-state: paused;
+}
