@@ -6,10 +6,11 @@
     --font-sans: 'Work Sans', sans-serif;
     /* Colors */
     --color-bg: #000319;
-    --color-nav: #0C0E23;
-    --color-nav-stroke: #202236;
+    --color-cards: #0C0E23;
+    --color-cards-stroke: #202236;
     --color-button: #231A33;
     --color-primary: #CBACF9;
+    --color-primary-hover: #D8BFFB;   
 }
 
 @keyframes infiniteScroll {
