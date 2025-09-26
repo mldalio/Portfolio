@@ -22,7 +22,7 @@
 }
 
 .scroll-animation {
-    animation: infiniteScroll 20s linear infinite;
+    animation: infiniteScroll 40s linear infinite;
 }
 
 .carousel-wrapper:hover .scroll-animation {
