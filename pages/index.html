@@ -14,19 +14,25 @@
         class="fixed top-10 left-1/2 -translate-x-1/2 shadow-lg rounded-2xl flex gap-6 items-center bg-cards/90 border-1 border-cards-stroke text-white p-6 z-50 blurred-backdrop">
         <ul class="flex space-x-4">
             <li>
-                <a href="#" class="text-primary hover:font-bold">Inicio</a>
+                <a href="#Inicio" class="hover:font-bold">Inicio</a>
             </li>
             <li>
-                <a href="#" class="text-primary hover:font-bold">Habilidades</a>
+                <a href="#Habilidades" class="hover:font-bold">Habilidades</a>
             </li>
             <li>
-                <a href="#" class="text-primary hover:font-bold">Proyectos</a>
+                <a href="#Servicios" class="hover:font-bold">Servicios</a>
             </li>
             <li>
-                <a href="#" class="text-primary hover:font-bold">Experiencia</a>
+                <a href="#Proyectos" class="hover:font-bold">Proyectos</a>
             </li>
             <li>
-                <a href="#" class="text-primary hover:font-bold">Contacto</a>
+                <a href="#Experiencia" class="hover:font-bold">Experiencia</a>
+            </li>
+            <li>
+                <a href="#Educacion" class="hover:font-bold">Educación</a>
+            </li>
+            <li>
+                <a href="#Contacto" class="hover:font-bold">Contacto</a>
             </li>
         </ul>
     </nav>
@@ -34,7 +40,7 @@
 
 <body class="bg-bg text-white">
     <main class="container mx-auto pt-32 px-4">
-        <section class="text-center my-4">
+        <section class="text-center my-4" id="Inicio">
             <img src="/assets/profile.webp" alt="María Laura Dalio" class="w-40 h-40 rounded-full mx-auto mb-4" />
             <div
                 class="flex items-center space-x-2 py-3 px-6 bg-cards border-1 border-cards-stroke text-white rounded-full justify-center w-fit mx-auto mb-6">
@@ -62,12 +68,12 @@
             </p>
 
             <div class="flex justify-center mb-4">
-                <a href="https://www.behance.net/marialauradalio" target="_blank"
+                <a href="https://www.behance.net/lauradalio" target="_blank"
                     class="bg-cards text-white px-4 py-2 rounded hover:text-primary flex items-center space-x-2 ml-4 border-1 border-cards-stroke">
                     <span>Behance</span>
                     <i class="fab fa-behance fa"></i>
                 </a>
-                <a href="https://github.com/marialauradalio" target="_blank"
+                <a href="https://github.com/mldalio" target="_blank"
                     class="bg-cards text-white px-4 py-2 rounded hover:text-primary flex items-center space-x-2 ml-4 border-1 border-cards-stroke">
                     <span>GitHub</span>
                     <i class="fab fa-github fa"></i>
@@ -81,7 +87,7 @@
             </div>
         </section>
 
-        <section class="my-12">
+        <section class="my-12" id="Habilidades">
             <h2 class="text-3xl font-bold mb-2 text-center">Habilidades</h2>
             <h3 class="text-center text-gray-300 mb-2">Diseño Gráfico | UX/UI | Diseño Web</h3>
             <div class="carousel-wrapper relative overflow-hidden bg-bg rounded-xl shadow-lg py-8">
@@ -339,213 +345,410 @@
             </div>
         </section>
 
-        <section class="my-12">
+        <section class="my-12" id="Servicios">
             <h2 class="text-3xl font-bold mb-6 text-center">Servicios</h2>
             <div class="max-w-full mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                <div class="p-6 bg-cards border border-cards-stroke rounded-lg shadow hover:shadow-lg transition-shadow duration-300">
-                    <img src="/assets/dg.webp" alt="Diseño Gráfico" class="mb-4 w-full h-auto object-cover rounded">
+                <div
+                    class="p-6 bg-cards border border-cards-stroke rounded-lg shadow hover:shadow-lg transition-shadow duration-300">
+                    <i class="fas fa-swatchbook text-4xl text-primary mb-4"></i>
                     <h3 class="text-xl font-semibold mb-2">Diseño Gráfico</h3>
-                    <p class="text-gray-300">Diseño de contenido digital para redes sociales y creación de materiales promocionales que
+                    <p class="text-gray-300">Diseño de contenido digital para redes sociales y creación de materiales
+                        promocionales que
                         fortalecen la comunicación de marca. Propuestas visuales claras y atractivas, pensadas para
                         transmitir mensajes de manera efectiva.</p>
                 </div>
-                <div class="p-6 bg-cards border border-cards-stroke rounded-lg shadow hover:shadow-lg transition-shadow duration-300">
-                    <img src="/assets/uxui.webp" alt="Diseño UX/UI" class="mb-4 w-full h-auto object-cover rounded">
+                <div
+                    class="p-6 bg-cards border border-cards-stroke rounded-lg shadow hover:shadow-lg transition-shadow duration-300">
+                    <i class="fas fa-pencil-ruler text-4xl text-primary mb-4"></i>
                     <h3 class="text-xl font-semibold mb-2">Diseño UX/UI</h3>
-                    <p class="text-gray-300">Diseño de interfaces digitales intuitivas y atractivas, con foco en la experiencia de usuario. Se
+                    <p class="text-gray-300">Diseño de interfaces digitales intuitivas y atractivas, con foco en la
+                        experiencia de usuario. Se
                         aplican buenas prácticas de UX/UI, sistemas de componentes en Figma y prototipado para lograr
                         productos consistentes, escalables y fáciles de usar.</p>
                 </div>
-                <div class="p-6 bg-cards border border-cards-stroke rounded-lg shadow hover:shadow-lg transition-shadow duration-300">
-                    <img src="/assets/web.webp" alt="Desarrollo Web" class="mb-4 w-full h-auto object-cover rounded">
+                <div
+                    class="p-6 bg-cards border border-cards-stroke rounded-lg shadow hover:shadow-lg transition-shadow duration-300">
+                    <i class="fas fa-code text-4xl text-primary mb-4"></i>
                     <h3 class="text-xl font-semibold mb-2">Desarrollo Web</h3>
-                    <p class="text-gray-300">Creación de sitios web modernos y funcionales, adaptados a cada proyecto. Se integran WordPress,
+                    <p class="text-gray-300">Creación de sitios web modernos y funcionales, adaptados a cada proyecto.
+                        Se integran WordPress,
                         WooCommerce, Tailwind y código a medida para ofrecer soluciones únicas, flexibles y optimizadas
                         para la comunicación digital.</p>
                 </div>
             </div>
         </section>
 
-        <section class="my-12">
+        <section class="my-12" id="Proyectos">
             <h2 class="text-3xl font-bold mb-4 text-center">Proyectos</h2>
             <div class="my-4">
                 <h3 class="text-xl text-center text-primary font-semibold mb-4">Diseño UX/UI</h3>
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                    <div class="p-4 bg-cards border border-cards-stroke rounded shadow flex flex-col ">
-                        <img src="/assets/gog.webp" alt="GOG Galaxy Design System" class="mb-4 w-full h-auto object-cover" />
-                        <h3 class="text-xl font-semibold mb-2">
-                            GOG Galaxy: Design System
-                        </h3>
-                        <p>Rediseño del sistema de diseño de la plataforma GOG Galaxy, enfocándose en la
-                            mejora de la experiencia de usuario y la coherencia visual.</p> 
-                        <div class="mt-auto">                      
-                        <button class="mt-3 p-3 w-full bg-primary text-bg font-medium rounded hover:bg-primary-hover cursor-pointer">
-                            Ver en Behance
-                            <i class="fas fa-external-link-alt ml-2"></i>
-                        </button>
+                <div class="grid grid-cols-1 gap-6">
+                    <div
+                        class="bg-cards border border-cards-stroke rounded shadow-2xl p-16 grid grid-cols-1 md:grid-cols-2 items-center gap-8 md:gap-12 overflow-hidden">
+                        <div class="z-10 order-1 md:order-2">
+                            <h2 class="text-3xl font-semibold text-white mb-6 leading-tight">GOG Galaxy Design System
+                            </h2>
+                            <div class="flex flex-wrap gap-2 mb-6">
+                                <span
+                                    class="inline-block px-4 py-1.5 text-sm font-medium border border-cards-stroke text-gray-300 rounded-full backdrop-blur-sm bg-purple-900/5">
+                                    UI Design</span>
+                                <span
+                                    class="inline-block px-4 py-1.5 text-sm font-medium border border-cards-stroke text-gray-300 rounded-full backdrop-blur-sm bg-purple-900/5">
+                                    Design System
+                                </span>
+                            </div>
+                            <p class="text-gray-300 mb-8 text-base leading-relaxed">
+                                Desarrollo de un sistema de diseño completo para GOG Galaxy, la plataforma de juegos de
+                                GOG.com. Incluye componentes reutilizables, guías de estilo y mejores prácticas para
+                                garantizar una experiencia de usuario coherente y atractiva.
+                            </p>
+                            <a href="https://www.behance.net/gallery/234689443/GOG-Galaxy-Design-System-UI-Design"  target="_blank" rel="noopener noreferrer"
+                                class="inline-block px-6 py-3 bg-primary text-cards font-semibold rounded-lg hover:bg-primary-hover transition-all duration-200 shadow-lg hover:shadow-xl">
+                                Ver en Behance
+                                <i class="fas fa-external-link-alt ml-2"></i>
+                            </a>
+                        </div>
+                        <div class="order-2 md:order-1">
+                            <img src="/assets/gog.webp" alt="GOG Galaxy Design System"
+                                class="w-full h-auto object-contain rounded-lg">
                         </div>
                     </div>
-                    <div class="p-4 bg-cards border border-cards-stroke rounded shadow flex flex-col">
-                        <img src="/assets/techfind.webp" alt="Tech Find App de armado de PCs" class="mb-4 w-full h-auto object-cover" />
-                        <h3 class="text-xl font-semibold mb-2">
-                            Techfind: App de armado de PCs
-                        </h3>
-                        <p>Diseño de una aplicación móvil para ayudar a los usuarios a armar su PC ideal
-                            según sus necesidades y presupuesto.</p>
-                        <div class="mt-auto">
-                        <button class="mt-3 p-3 w-full bg-primary text-bg font-medium rounded hover:bg-primary-hover cursor-pointer">
-                            Ver en Behance
-                            <i class="fas fa-external-link-alt ml-2"></i>
-                        </button>
+
+                    <div
+                        class="bg-cards border border-cards-stroke rounded shadow-2xl p-16 grid grid-cols-1 md:grid-cols-2 items-center gap-8 md:gap-12 overflow-hidden">
+                        <div class="z-10 order-1 md:order-2">
+                            <h2 class="text-3xl font-semibold text-white mb-6 leading-tight">Techfind: Diseño de App
+                            </h2>
+                            <div class="flex flex-wrap gap-2 mb-6">
+                                <span
+                                    class="inline-block px-4 py-1.5 text-sm font-medium border border-cards-stroke text-gray-300 rounded-full backdrop-blur-sm bg-purple-900/5">
+                                    UX/UI Design</span>
+                                <span
+                                    class="inline-block px-4 py-1.5 text-sm font-medium border border-cards-stroke text-gray-300 rounded-full backdrop-blur-sm bg-purple-900/5">
+                                    Case Study
+                                </span>
+                            </div>
+                            <p class="text-gray-300 mb-8 text-base leading-relaxed">
+                                Diseño de una plataforma para comparar y armar computadoras personalizadas.
+                                Incluye investigación de usuarios, wireframes, prototipos interactivos y diseño visual
+                                para
+                                garantizar una experiencia de usuario óptima.
+                            </p>
+                            <a href="https://www.behance.net/gallery/144420103/Techfind-PC-Builder-UXUI-Case-Study" target="_blank" rel="noopener noreferrer"
+                                class="inline-block px-6 py-3 bg-primary text-cards font-semibold rounded-lg hover:bg-primary-hover transition-all duration-200 shadow-lg hover:shadow-xl">
+                                Ver en Behance
+                                <i class="fas fa-external-link-alt ml-2"></i>
+                            </a>
+                        </div>
+                        <div class="order-2 md:order-1">
+                            <img src="/assets/techfind.webp" alt="Techfind: Diseño de App"
+                                class="w-full h-auto object-contain rounded-lg">
                         </div>
                     </div>
-                    <div class="p-4 bg-cards border border-cards-stroke rounded shadow flex flex-col">
-                        <img src="/assets/cinemark.webp" alt="Cinemark Hoyts" class="mb-4 w-full h-auto object-cover" />
-                        <h3 class="text-xl font-semibold mb-2">
-                            Cinemark Hoyts: Rediseño de App Móvil
-                        </h3>
-                        <p>Rediseño de la aplicación móvil para mejorar la experiencia
-                            del usuario en la compra de entradas y selección de asientos.</p>
-                        <div class="mt-auto">
-                        <button class="mt-3 p-3 w-full bg-primary text-bg font-medium rounded hover:bg-primary-hover cursor-pointer">
-                            Ver en Behance
-                            <i class="fas fa-external-link-alt ml-2"></i>
-                        </button>
+
+                    <div
+                        class="bg-cards border border-cards-stroke rounded shadow-2xl p-16 grid grid-cols-1 md:grid-cols-2 items-center gap-8 md:gap-12 overflow-hidden">
+                        <div class="z-10 order-1 md:order-2">
+                            <h2 class="text-3xl font-semibold text-white mb-6 leading-tight">Cinemark Hoyts: Rediseño de
+                                App</h2>
+                            <div class="flex flex-wrap gap-2 mb-6">
+                                <span
+                                    class="inline-block px-4 py-1.5 text-sm font-medium border border-cards-stroke text-gray-300 rounded-full backdrop-blur-sm bg-purple-900/5">
+                                    UX/UI Design</span>
+                                <span
+                                    class="inline-block px-4 py-1.5 text-sm font-medium border border-cards-stroke text-gray-300 rounded-full backdrop-blur-sm bg-purple-900/5">
+                                    Case Study
+                                </span>
+                            </div>
+                            <p class="text-gray-300 mb-8 text-base leading-relaxed">
+                                Rediseño de la aplicación móvil de Cinemark Hoyts para mejorar la experiencia de usuario
+                                en la compra de entradas y la navegación por la cartelera. Incluye wireframes,
+                                prototipos y
+                                diseño visual.
+                            </p>
+                            <a href="https://www.behance.net/gallery/160973991/Cinemark-Hoyts-Redesign-UXUI" target="_blank" rel="noopener noreferrer"
+                                class="inline-block px-6 py-3 bg-primary text-cards font-semibold rounded-lg hover:bg-primary-hover transition-all duration-200 shadow-lg hover:shadow-xl">
+                                Ver en Behance
+                                <i class="fas fa-external-link-alt ml-2"></i>
+                            </a>
+                        </div>
+                        <div class="order-2 md:order-1">
+                            <img src="/assets/cinemark.webp" alt="Cinemark Hoyts: Rediseño de App"
+                                class="w-full h-auto object-contain rounded-lg">
+                        </div>
+                    </div>
+
+                    <div
+                        class="bg-cards border border-cards-stroke rounded shadow-2xl p-16 grid grid-cols-1 md:grid-cols-2 items-center gap-8 md:gap-12 overflow-hidden">
+                        <div class="z-10 order-1 md:order-2">
+                            <h2 class="text-3xl font-semibold text-white mb-6 leading-tight">Viagogo: Rediseño de App
+                            </h2>
+                            <div class="flex flex-wrap gap-2 mb-6">
+                                <span
+                                    class="inline-block px-4 py-1.5 text-sm font-medium border border-cards-stroke text-gray-300 rounded-full backdrop-blur-sm bg-purple-900/5">
+                                    UX/UI Design</span>
+                                <span
+                                    class="inline-block px-4 py-1.5 text-sm font-medium border border-cards-stroke text-gray-300 rounded-full backdrop-blur-sm bg-purple-900/5">
+                                    Case Study
+                                </span>
+                            </div>
+                            <p class="text-gray-300 mb-8 text-base leading-relaxed">
+                                Rediseño de la aplicación móvil de Viagogo para mejorar la experiencia de usuario
+                                en la compra de entradas y la navegación por la cartelera. Incluye wireframes,
+                                prototipos y
+                                diseño visual.
+                            </p>
+                            <a href="https://www.behance.net/gallery/155298557/Viagogo-UXUI-case-study" target="_blank" rel="noopener noreferrer"
+                                class="inline-block px-6 py-3 bg-primary text-cards font-semibold rounded-lg hover:bg-primary-hover transition-all duration-200 shadow-lg hover:shadow-xl">
+                                Ver en Behance
+                                <i class="fas fa-external-link-alt ml-2"></i>
+                            </a>
+                        </div>
+                        <div class="order-2 md:order-1">
+                            <img src="/assets/viagogo.webp" alt="Viagogo: Rediseño de App"
+                                class="w-full h-auto object-contain rounded-lg">
                         </div>
                     </div>
                 </div>
             </div>
+
             <div class="my-12">
                 <h3 class="text-xl text-center text-primary font-semibold mb-4">Desarrollo Web</h3>
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    <div class="p-4 bg-cards border border-cards-stroke rounded shadow flex flex-col">
-                        <img src="/assets/compexarg.webp" alt="Ecommerce para Compex Argentina" class="mb-4 w-full h-auto object-cover" />
-                        <h3 class="text-xl font-semibold mb-2">
-                            Ecommerce para Compex Argentina
-                        </h3>
-                        <p>
-                            Desarrollo de un sitio web de comercio electrónico para
-                            Compex Argentina, incluyendo diseño de interfaz y
-                            experiencia de usuario.
-                        </p>
-                        <div class="mt-auto">
-                        <button class="mt-3 p-3 w-full md:w-auto bg-primary text-bg font-medium rounded hover:bg-primary-hover cursor-pointer">
-                            Ver sitio en vivo
-                            <i class="fas fa-external-link-alt ml-2"></i>
-                        </button>
+                <div class="grid grid-cols-1 gap-6">
+                    <div
+                        class="bg-cards border border-cards-stroke rounded shadow-2xl p-16 grid grid-cols-1 md:grid-cols-2 items-center gap-8 md:gap-12 overflow-hidden">
+                        <div class="z-10 order-1 md:order-2">
+                            <h2 class="text-3xl font-semibold text-white mb-6 leading-tight">Compex Argentina: Ecommerce
+                            </h2>
+                            <div class="flex flex-wrap gap-2 mb-6">
+                                <span
+                                    class="inline-block px-4 py-1.5 text-sm font-medium border border-cards-stroke text-gray-300 rounded-full backdrop-blur-sm bg-purple-900/5">
+                                    UX/UI Design</span>
+                                <span
+                                    class="inline-block px-4 py-1.5 text-sm font-medium border border-cards-stroke text-gray-300 rounded-full backdrop-blur-sm bg-purple-900/5">
+                                    Web Design
+                                </span>
+                            </div>
+                            <p class="text-gray-300 mb-8 text-base leading-relaxed">
+                                Desarrollo de un e-commerce para Compex Argentina, líder en electroestimulación
+                                muscular. Incluye diseño UX/UI, implementación en WordPress con WooCommerce y
+                                optimización
+                                para mejorar la experiencia de compra y la conversión.
+                            </p>
+                            <a href="https://www.compexargentina.com" target="_blank" rel="noopener noreferrer"
+                                class="inline-block px-6 py-3 bg-primary text-cards font-semibold rounded-lg hover:bg-primary-hover transition-all duration-200 shadow-lg hover:shadow-xl">
+                                Ver sitio
+                                <i class="fas fa-external-link-alt ml-2"></i>
+                            </a>
+                        </div>
+                        <div class="order-2 md:order-1">
+                            <img src="/assets/compexarg.webp" alt="Compex Argentina: Ecommerce"
+                                class="w-full h-auto object-contain rounded-lg">
                         </div>
                     </div>
-                    <div class="p-4 bg-cards border border-cards-stroke rounded shadow flex flex-col">
-                        <img src="/assets/ebisumed.webp" alt="Sitio Web para Ebisumed" class="mb-4 w-full h-auto object-cover" />
-                        <h3 class="text-xl font-semibold mb-2">
-                            Sitio Web para EbisuMed
-                        </h3>
-                        <p>
-                            Creación de un sitio web corporativo para EbisuMed,
-                            una empresa del sector salud, con un diseño moderno y
-                            funcional.
-                        </p>
-                        <div class="mt-auto">
-                        <button class="mt-3 p-3 w-full md:w-auto bg-primary text-bg font-medium rounded hover:bg-primary-hover cursor-pointer">
-                            Ver sitio en vivo
-                            <i class="fas fa-external-link-alt ml-2"></i>
-                        </button>
+
+                    <div
+                        class="bg-cards border border-cards-stroke rounded shadow-2xl p-16 grid grid-cols-1 md:grid-cols-2 items-center gap-8 md:gap-12 overflow-hidden">
+                        <div class="z-10 order-1 md:order-2">
+                            <h2 class="text-3xl font-semibold text-white mb-6 leading-tight">EbisuMed: Sitio
+                                institucional</h2>
+                            <div class="flex flex-wrap gap-2 mb-6">
+                                <span
+                                    class="inline-block px-4 py-1.5 text-sm font-medium border border-cards-stroke text-gray-300 rounded-full backdrop-blur-sm bg-purple-900/5">
+                                    UX/UI Design</span>
+                                <span
+                                    class="inline-block px-4 py-1.5 text-sm font-medium border border-cards-stroke text-gray-300 rounded-full backdrop-blur-sm bg-purple-900/5">
+                                    Web Design
+                                </span>
+                            </div>
+                            <p class="text-gray-300 mb-8 text-base leading-relaxed">
+                                Desarrollo del sitio web institucional para EbisuMed, empresa de tecnología médica.
+                                Incluye diseño UX/UI, implementación en WordPress y optimización para mejorar la
+                                experiencia del usuario y la comunicación de la marca.
+                            </p>
+                            <a href="https://www.ebisumed.com" target="_blank" rel="noopener noreferrer"
+                                class="inline-block px-6 py-3 bg-primary text-cards font-semibold rounded-lg hover:bg-primary-hover transition-all duration-200 shadow-lg hover:shadow-xl">
+                                Ver sitio
+                                <i class="fas fa-external-link-alt ml-2"></i>
+                            </a>
+                        </div>
+                        <div class="order-2 md:order-1">
+                            <img src="/assets/ebisumed.webp" alt="EbisuMed: Sitio institucional"
+                                class="w-full h-auto object-contain rounded-lg">
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="my-8">
-            <h2 class="text-2xl text-center font-bold mb-4 text-primary">Experiencia Laboral</h2>            
-                <div class="p-4">
-                    <h3 class="text-xl font-semibold">
-                        Diseñadora UX/UI - Diseñadora Web
-                    </h3>
-                    <p class="text-md text-gray-300 mb-2">EbisuMed (2024 - Presente)</p>
-                    <ul class="list-disc list-inside marker:text-primary">
-                        <li> Diseño integral de sitios web institucionales y e-commerce desde wireframes hasta implementación en WordPress.
+
+        <section class="my-12" id="Experiencia">
+            <h2 class="text-3xl font-bold mb-8 text-center">Experiencia Laboral</h2>
+            <div class="space-y-6">
+                <div class="p-6">
+                    <div class="flex flex-col md:flex-row md:items-start md:justify-between mb-3">
+                        <div>
+                            <h3 class="text-xl font-semibold text-primary">Diseñadora UX/UI - Diseñadora Web</h3>
+                            <p class="text-gray-200">EbisuMed</p>
+                        </div>
+                        <span class="text-sm text-gray-400 mt-2 md:mt-0">2024 - Presente</span>
+                    </div>
+                    <ul class="space-y-2 text-gray-300">
+                        <li class="flex items-start">
+                            <i class="fas fa-circle text-primary text-xs mt-1.5 mr-3"></i>
+                            <span>Diseño integral de sitios web institucionales y e-commerce desde wireframes hasta
+                                implementación en WordPress.</span>
                         </li>
-                        <li>Desarrollo de soluciones personalizadas con HTML, CSS, JavaScript y configuración de WooCommerce.</li>
-                        <li> Análisis de métricas web para optimización de experiencia de usuario y conversión.
+                        <li class="flex items-start">
+                            <i class="fas fa-circle text-primary text-xs mt-1.5 mr-3"></i>
+                            <span>Desarrollo de soluciones personalizadas con HTML, CSS, JavaScript y configuración de
+                                WooCommerce.</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-circle text-primary text-xs mt-1.5 mr-3"></i>
+                            <span>Análisis de métricas web para optimización de experiencia de usuario y
+                                conversión.</span>
                         </li>
                     </ul>
-                </div>             
-                <div class="p-4">
-                    <h3 class="text-xl font-semibold">
-                        Diseñadora gráfica
-                    </h3>
-                    <p class="text-md text-gray-300 mb-2">EbisuMed (2024 - Presente)</p>
-                    <ul class="list-disc list-inside marker:text-primary">
-                        <li> Desarrollo de identidad visual digital y contenido para redes sociales y materiales promocionales.
-                        </li>                        
-                    </ul>
-                </div>                  
-                <div class="p-4">
-                    <h3 class="text-xl font-semibold">
-                        Diseñadora UX/UI - Diseñadora Web
-                    </h3>
-                    <p class="text-md text-gray-300 mb-2">Freelance (2023 - Presente)</p>
-                    <ul class="list-disc list-inside marker:text-primary">
-                        <li> Rediseño de sitios web corporativos mejorando navegación, jerarquía visual y experiencia de usuario. </li>
-                        <li> Creación de prototipos en Figma e implementación responsive en múltiples plataformas.</li>
-                        <li> Configuración de soluciones e-commerce y análisis de métricas para optimización continua.</li>
-                    </ul>
-                </div>            
-        </section>
-
-
-
-
-        
-        <section class="my-8">
-            <h2 class="text-2xl font-bold mb-4">Contacto</h2>
-            <div class="space-y-4">
-                <div>
-                    <i class="fas fa-envelope fa-2x"></i>
-                    <span class="ml-2">Email
-                        <button class="text-blue-700 hover:underline">
-                            Copiar email
-                        </button></span>
-                    <input type="text" value="tuemail@example.com" class="hidden" id="email-to-copy" />
                 </div>
-                <div>
-                    <i class="fas fa-phone fa-2x"></i>
-                    <span class="ml-2">Linkedin
-                        <button class="text-blue-700 hover:underline">
-                            Copiar Linkedin
-                        </button></span>
-                    <input type="text" value="https://www.linkedin.com/in/tuusuario" class="hidden"
-                        id="linkedin-to-copy" />
+
+                <div class="p-6">
+                    <div class="flex flex-col md:flex-row md:items-start md:justify-between mb-3">
+                        <div>
+                            <h3 class="text-xl font-semibold text-primary">Diseñadora Gráfica</h3>
+                            <p class="text-gray-200">EbisuMed</p>
+                        </div>
+                        <span class="text-sm text-gray-400 mt-2 md:mt-0">2024 - Presente</span>
+                    </div>
+                    <ul class="space-y-2 text-gray-300">
+                        <li class="flex items-start">
+                            <i class="fas fa-circle text-primary text-xs mt-1.5 mr-3"></i>
+                            <span>Desarrollo de identidad visual digital y contenido para redes sociales y materiales
+                                promocionales.</span>
+                        </li>
+                    </ul>
                 </div>
+
+                <div class="p-6">
+                    <div class="flex flex-col md:flex-row md:items-start md:justify-between mb-3">
+                        <div>
+                            <h3 class="text-xl font-semibold text-primary">Diseñadora UX/UI - Diseñadora Web</h3>
+                            <p class="text-gray-200">Freelance</p>
+                        </div>
+                        <span class="text-sm text-gray-400 mt-2 md:mt-0">2023 - Presente</span>
+                    </div>
+                    <ul class="space-y-2 text-gray-300">
+                        <li class="flex items-start">
+                            <i class="fas fa-circle text-primary text-xs mt-1.5 mr-3"></i>
+                            <span>Rediseño de sitios web corporativos mejorando navegación, jerarquía visual y
+                                experiencia de usuario.</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-circle text-primary text-xs mt-1.5 mr-3"></i>
+                            <span>Creación de prototipos en Figma e implementación responsive en múltiples
+                                plataformas.</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-circle text-primary text-xs mt-1.5 mr-3"></i>
+                            <span>Configuración de soluciones e-commerce y análisis de métricas para optimización
+                                continua.</span>
+                        </li>
+                    </ul>
+                </div>
+
             </div>
         </section>
+
+        <section class="my-12" id="Educacion">
+            <h2 class="text-3xl font-bold mb-8 text-center">Educación & Certificaciones</h2>
+            <div class="p-6">
+                <div class="flex flex-col md:flex-row md:items-start md:justify-between mb-2">
+                    <h3 class="text-xl font-semibold text-gray-100">Diseño Gráfico</h3>
+                    <span class="text-sm text-gray-400 mt-1 md:mt-0">2018-2024</span>
+                </div>
+                <p class="text-gray-200 mb-2">Universidad de Buenos Aires</p>
+                <a href="https://drive.google.com/file/d/1WOnqVSv2SA_McDKIsU4fe3LzjiuuFVuy/view?usp=sharing" target="_blank"
+                    class="text-primary hover:text-primary-hover text-lg font-medium transition-colors duration-200">
+                    Ver diploma <i class="fas fa-external-link-alt ml-1"></i>
+                </a>
+            </div>
+            <div class="p-6">
+                <div class="flex flex-col md:flex-row md:items-start md:justify-between mb-2">
+                    <h3 class="text-xl font-semibold text-gray-100">Front End Js</h3>
+                    <span class="text-sm text-gray-400 mt-1 md:mt-0">2025</span>
+                </div>
+                <p class="text-gray-200 mb-2">Talento Tech - Agencia de Habilidades para el Futuro</p>
+                <a href="https://drive.google.com/file/d/18-CCn7Smp44KUUEeHITmDYuTWeuDjkjS/view?usp=sharing" target="_blank"
+                    class="text-primary hover:text-primary-hover text-lg font-medium transition-colors duration-200">
+                    Ver certificado <i class="fas fa-external-link-alt ml-1"></i>
+                </a>
+            </div>
+            <div class="p-6">
+                <div class="flex flex-col md:flex-row md:items-start md:justify-between mb-2">
+                    <h3 class="text-xl font-semibold text-gray-100">Diseño UI</h3>
+                    <span class="text-sm text-gray-400 mt-1 md:mt-0">2024</span>
+                </div>
+                <p class="text-gray-200 mb-2">Coderhouse</p>
+                <a href="https://pub.coderhouse.com/legacy-certificates/65c174932f440f20236a77b1?lang=es" target="_blank"
+                    class="text-primary hover:text-primary-hover text-lg font-medium transition-colors duration-200">
+                    Ver certificado <i class="fas fa-external-link-alt ml-1"></i>
+                </a>
+            </div>
+            <div class="p-6">
+                <div class="flex flex-col md:flex-row md:items-start md:justify-between mb-2">
+                    <h3 class="text-xl font-semibold text-gray-100">Diseño UX/UI Avanzado</h3>
+                    <span class="text-sm text-gray-400 mt-1 md:mt-0">2022</span>
+                </div>
+                <p class="text-gray-200 mb-2">Coderhouse</p>
+                <a href="https://pub.coderhouse.com/legacy-certificates/63c083a437afc7000f99cfe9?lang=es" target="_blank"
+                    class="text-primary hover:text-primary-hover text-lg font-medium transition-colors duration-200">
+                    Ver certificado <i class="fas fa-external-link-alt ml-1"></i>
+                </a>
+            </div>
+            <div class="p-6">
+                <div class="flex flex-col md:flex-row md:items-start md:justify-between mb-2">
+                    <h3 class="text-xl font-semibold text-gray-100">Diseño UX/UI</h3>
+                    <span class="text-sm text-gray-400 mt-1 md:mt-0">2022</span>
+                </div>
+                <p class="text-gray-200 mb-2">Coderhouse</p>
+                <a href="https://pub.coderhouse.com/legacy-certificates/628eb020f0e8ed00257ddf50?lang=es" target="_blank"
+                    class="text-primary hover:text-primary-hover text-lg font-medium transition-colors duration-200">
+                    Ver certificado <i class="fas fa-external-link-alt ml-1"></i>
+                </a>
+            </div>
+        </section>
+
+        <section  class="my-16 relative bg-gradient-to-br from-purple-900/10 via-purple-900/5 to-bg-cards rounded-lg overflow-hidden" id="Contacto">
+            <div class="absolute inset-0 bg-gradient-to-br from-purple-900/20 via-purple-900/15 to-bg-cards">
+            </div>
+            <div class="relative max-w-3xl mx-auto text-center py-16 px-4">
+                <h2 class="text-4xl font-bold mb-4">Contacto</h2>
+                <p class="text-gray-300 text-lg mb-8">
+                    ¿Tenés un proyecto en mente? Podés escribirme a mi mail.
+                </p>
+                <div class="flex justify-center mb-6">                    
+                    <a href="mailto:marialauradalio@gmail.com"
+                        class="inline-block px-6 py-3 bg-primary text-cards font-semibold rounded-lg hover:bg-primary-hover transition-all duration-200 shadow-lg hover:shadow-xl">
+                        Enviar email
+                        <i class="fas fa-envelope ml-2"></i>
+                    </a>
+                <a href="#" target="_blank"
+                    class="text-white px-4 py-2 rounded hover:text-primary flex items-center space-x-2 ml-4 border-1 border-cards-stroke">
+                    <span>Copiar mail</span>
+                    <i class="fas fa-copy"></i>
+                </a>
+            </div>
+            </div>
+        </section>
+
+        <footer class="border-t border-cards-stroke mt-16 pt-8 pb-6 text-center">
+            <p class="text-gray-400 text-sm">
+                © 2025 María Laura Dalio. Todos los derechos reservados.
+            </p>
+            <p class="text-gray-400 text-sm">
+                Hecho con ❤️ por mí con HTML, Tailwind CSS y un poco de JavaScript.
+            </p>
+        </footer>
     </main>
-    <footer class="bg-blue-700 text-white text-center p-4">
-        <div class="mb-2">
-            <strong>María Laura Dalio</strong> - UX/UI Designer & Web Designer
-        </div>
-        <div class="mb-2">
-            <a href="https://www.linkedin.com/in/marialauradalio/" target="_blank"
-                class="text-white hover:underline mx-2">
-                Linkedin <i class="fab fa-linkedin fa-2x"></i>
-            </a>
-            <a href="https://www.behance.net/marialauradalio" target="_blank" class="text-white hover:underline mx-2">
-                Behance <i class="fab fa-behance fa-2x"></i>
-            </a>
-            <a href="https://github.com/marialauradalio" target="_blank" class="text-white hover:underline mx-2">
-                Github <i class="fab fa-github fa-2x"></i>
-            </a>
-        </div>
-        <div>
-            <a href="#" class="text-white hover:underline mx-2">Inicio</a>
-            <a href="#" class="text-white hover:underline mx-2">Habilidades</a>
-            <a href="#" class="text-white hover:underline mx-2">Servicios</a>
-            <a href="#" class="text-white hover:underline mx-2">Proyectos</a>
-            <a href="#" class="text-white hover:underline mx-2">Experiencia laboral</a>
-            <a href="#" class="text-white hover:underline mx-2">Contacto</a>
-        </div>
-        <p>&copy; 2025 María Laura Dalio. Todos los derechos reservados.</p>
-    </footer>
+    <script src="/js/main.js"></script>
 </body>
-
 </html>
